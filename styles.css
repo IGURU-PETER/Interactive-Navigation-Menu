@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 1000; /* Keep navbar above other content */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    padding: 15px 25px; /* Increased padding for better clickability */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ff9800; /* Change color on hover */
+    text-shadow: 0 0 5px rgba(255, 152, 0, 0.5); /* Subtle glow effect */
+}
+
+.scrolled {
+    background-color: #222; /* Darker background when scrolled */
+}
+
+.content {
+    text-align: center;
+    padding: 100px 20px; /* Padding to create space for fixed navbar */
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
